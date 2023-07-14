@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * main - Entry point
- *
- * Return: Always 1 (Succcess)
+ * main - A c progrmam that prints a line to the standard error
+ * Return: 1 (Succcess)
  */
 int main(void)
 {
-	write(2, "and that piece of art is useful" - Dora Korpar, 2015-10-19);
+fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
 	return (1);
 }
